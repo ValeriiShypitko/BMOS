@@ -1,0 +1,15 @@
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+
+
+.settings/
+*.launch
+
+
+Thumbs.db
