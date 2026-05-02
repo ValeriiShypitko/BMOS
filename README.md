@@ -30,4 +30,3 @@ This project was developed as part of the "Embedded Systems Programming on ARM C
 ## 📋 Roadmap
 - [ ] Implement Binary and Counting Semaphores
 - [ ] Add Mutex support with Priority Inheritance
-- [ ] Integrate UART for system logging
