@@ -3,7 +3,9 @@
 An educational, preemptive Real-Time Operating System (RTOS) built for ARM Cortex-M microcontrollers.
 
 ## 📖 About
-This project is a custom implementation of a task scheduler developed while following the professional curriculum by **FastBit Embedded Brain Academy**. It serves as a deep dive into the internal mechanics of RTOS kernels and ARM Cortex-M processor architecture.
+This is a custom RTOS kernel built from scratch as part of the **"Embedded Systems Programming on ARM Cortex-M Video Course"** by FastBit Embedded Brain Academy. 
+
+Unlike using a pre-built OS like FreeRTOS, this project focuses on low-level kernel development, including manual stack frame manipulation and exception-based context switching.
 
 ## 🚀 Core Features
 *   **Preemptive Round-Robin Scheduling**: Implements time-slicing using the `SysTick` timer to switch between tasks automatically.
@@ -23,7 +25,7 @@ This project is a custom implementation of a task scheduler developed while foll
 *   `Inc/BMOS.h`: TCB (Task Control Block) definitions and OS constants.
 
 ## 🎓 Acknowledgments
-This project was developed as part of the "Mastering RTOS: Hands on FreeRTOS and STM32" course series by **FastBit Embedded Brain Academy**. Special thanks to the instructors for the deep insights into ARM internals.
+This project was developed as part of the "Embedded Systems Programming on ARM Cortex-M3/M4 Processor" course series by **FastBit Embedded Brain Academy**. Special thanks to the instructors for the deep insights into ARM internals.
 
 ## 📋 Roadmap
 - [ ] Implement Binary and Counting Semaphores
